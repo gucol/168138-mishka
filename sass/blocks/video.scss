@@ -1,0 +1,37 @@
+.video {
+    border: 1px solid #ededed;
+    margin-left: 9%;
+    margin-right: 9%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.video__title {
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 16px;
+    padding-left: 60px;
+    text-align: left;
+    display: block;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family: $main-font;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    color: $first-color;
+    text-decoration: none;
+}
+
+.video__box {
+    background: url(../img/video-mobile@1x.jpg) no-repeat;
+}
+
+.video__text {
+    margin: 35px 13% 27px;
+    font-family: $main-font;
+    font-size: 13px;
+    line-height: 24px;
+    color: $text-color;
+    text-align: left;
+}
