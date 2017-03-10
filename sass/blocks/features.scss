@@ -1,0 +1,26 @@
+.features {
+    padding: 30px 9% 60px;
+}
+
+.features__title {
+    font-family: $main-font;
+    font-size: 25px;
+    line-height: 30px;
+    color: $first-color;
+    font-weight: bold;
+}
+
+.features__list {
+    margin: 0px;
+    padding: 0px;
+}
+
+.features__item {
+    list-style: none;
+    font-family: $main-font;
+    font-size: 17px;
+    line-height: 20px;
+    color: $first-color;
+    font-weight: bold;
+    padding-top: 86px;
+}

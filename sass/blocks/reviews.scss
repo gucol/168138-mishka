@@ -1,0 +1,21 @@
+.reviews {
+    padding: 0px 9% 45px;
+    font-size: 0px;
+}
+
+.reviews__title {
+    font-family: $main-font;
+    font-size: 25px;
+    line-height: 30px;
+    color: $first-color;
+    font-weight: bold;
+}
+
+.reviews__control {
+    display: inline-block;
+    background-color: $page-bg;
+    border: 1px solid #ececec;
+    min-height: 50px;
+    width: 50%;
+    margin-bottom: 38px;
+}
