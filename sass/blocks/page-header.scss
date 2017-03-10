@@ -1,6 +1,6 @@
 .page-header {
     background-color: $page-bg;
-    padding: 20px 0px;
+    padding: 20px 0px 0px;
 }
 
 .page-header__title {
@@ -10,7 +10,7 @@
     font-weight: bold;
     font-size: 27px;
     line-height: 30px;
-    color: $font-color;
+    color: $first-color;
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -28,7 +28,7 @@
     text-decoration: none;
 
       &--first {
-      background-color: #63d1bb;
+      background-color: $second-color;
       }
       &--second {
       background-color: #56c3b2;

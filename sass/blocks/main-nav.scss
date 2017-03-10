@@ -1,5 +1,4 @@
 .main-nav {
-
     &--closed {
     display: none;
     }
@@ -27,7 +26,7 @@
 
 .main-nav__item a {
   text-decoration: none;
-  color: $font-color;
+  color: $first-color;
   font-family: $main-font;
   font-weight: bold;
   font-size: 17px;
