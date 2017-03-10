@@ -1,0 +1,37 @@
+.form-fieldset {
+    border: none;
+    border-top: 1px solid #62d1ba;
+    padding: 0px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.form-fieldset__legend {
+    font-family: $main-font;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 16px;
+    color: $second-color;
+    background: $page-bg;
+    width: 62px;
+    text-transform: uppercase;
+}
+
+.form-fieldset__radio {
+    display: none;
+}
+
+.form-fieldset__label {
+    display: block;
+    font-family: $main-font;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 18px;
+    color: $first-color;
+    padding-left: 62px;
+    margin-bottom: 20px;
+}
+
+.form-fieldset__checkbox {
+    display: none;
+}
