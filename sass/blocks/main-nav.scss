@@ -5,30 +5,29 @@
 }
 
 .main-nav__toggle {
-  display: none;
+    display: none;
 }
 
 .main-nav__list {
-  padding-left: 0px;
-  margin-bottom: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
 }
 
 .main-nav__item {
-    list-style: none;
-    text-align: center;
-    border-top: 1px solid #ececec;
     padding-top: 30px;
     padding-bottom: 30px;
+    text-align: center;
+    list-style: none;
+    border-top: 1px solid #ececec;
+
     &:last-child {
       border-bottom: 1px solid #ececec;
     }
 }
 
 .main-nav__item a {
-  text-decoration: none;
-  color: $first-color;
-  font-family: $main-font;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    color: $first-color;
+    text-decoration: none;
 }

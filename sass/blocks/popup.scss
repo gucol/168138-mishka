@@ -1,35 +1,35 @@
 .popup {
     position: fixed;
-    top: 20%;
+    top: 50%;
+    margin-top: -100%;
+    padding: 35px 9% 45px;
     background: $page-bg;
     border-top: 1px solid #c7c7c7;
-    padding: 35px 9% 45px;
     box-shadow: 0px 5px 10px rgba(0, 1, 1, 0.25);
+
     &--closed {
       display: none;
     }
 }
 
 .popup__title {
+    padding-bottom: 25px;
     margin: 0px;
-    font-family: $main-font;
     font-weight: bold;
-    color: $first-color;
-    text-transform: uppercase;
     font-size: 25px;
     line-height: 30px;
+    color: $first-color;
     text-align: center;
-    padding-bottom: 25px;
+    text-transform: uppercase;
 }
 
 .popup__text {
+    padding-bottom: 28px;
     margin: 0px;
-    font-family: $main-font;
-    color: $text-color;
     font-size: 15px;
     line-height: 30px;
+    color: $text-color;
     text-align: center;
-    padding-bottom: 28px;
 }
 
 .popup__form {
@@ -42,32 +42,29 @@
 
 .popup__label {
     display: inline-block;
-    font-weight: bold;
-    font-family: $main-font;
-    color: $text-color;
-    font-size: 17px;
-    line-height: 16px;
-    text-align: center;
     padding: 18px 30px;
-    border: 2px solid #ececec;
     margin-bottom: 30px;
     margin-right: 7px;
+    font-weight: bold;
+    line-height: 16px;
+    color: $text-color;
+    text-align: center;
+    border: 2px solid #ececec;
+
     &:last-child {
-      margin-right: 0;
+    margin-right: 0;
     }
 }
 
 .popup__btn {
-    font-family: $main-font;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 16px;
     font-weight: bold;
-    color: $page-bg;
-    font-size: 17px;
     line-height: 16px;
+    color: $page-bg;
     text-align: center;
     text-transform: uppercase;
     background-color: $second-color;
-    padding-top: 20px;
-    padding-bottom: 16px;
     border: none;
-    width: 100%;
 }

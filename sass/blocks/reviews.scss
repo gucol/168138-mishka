@@ -4,18 +4,17 @@
 }
 
 .reviews__title {
-    font-family: $main-font;
+    font-weight: bold;    
     font-size: 25px;
     line-height: 30px;
     color: $first-color;
-    font-weight: bold;
 }
 
 .reviews__control {
     display: inline-block;
+    width: 50%;
+    min-height: 50px;
+    margin-bottom: 38px;            
     background-color: $page-bg;
     border: 1px solid #ececec;
-    min-height: 50px;
-    width: 50%;
-    margin-bottom: 38px;
 }

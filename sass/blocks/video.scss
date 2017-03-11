@@ -1,25 +1,23 @@
 .video {
-    border: 1px solid #ededed;
+    padding-bottom: 30px;
     margin-left: 9%;
     margin-right: 9%;
-    padding-bottom: 30px;
-    text-align: center;
+    text-align: center;    
+    border: 1px solid #ededed;
 }
 
 .video__title {
-    margin: 0;
+    display: block;
     padding-top: 30px;
     padding-bottom: 16px;
     padding-left: 60px;
-    text-align: left;
-    display: block;
+    margin: 0;
     margin-right: 10%;
     margin-left: 10%;
-    font-family: $main-font;
     font-weight: bold;
-    font-size: 17px;
     line-height: 24px;
     color: $first-color;
+    text-align: left;   
     text-decoration: none;
 }
 
@@ -29,7 +27,6 @@
 
 .video__text {
     margin: 35px 13% 27px;
-    font-family: $main-font;
     font-size: 13px;
     line-height: 24px;
     color: $text-color;

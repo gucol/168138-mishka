@@ -1,23 +1,20 @@
 .contact-block {
-    background-color: $page-bg;
     padding-bottom: 30px;
-    margin-bottom: 495px;
+    margin-bottom: 495px;    
+    background-color: $page-bg;
 }
 
 .contact-block__title {
-    font-family: $main-font;
+    font-weight: bold;    
     font-size: 18px;
     line-height: 30px;
     color: $first-color;
-    font-weight: bold;
 }
 
 .contact-block__table {
-    font-family: $main-font;
     font-size: 15px;
     line-height: 30px;
     color: $text-color;
-
 }
 
 .contact-block__table td {
@@ -25,6 +22,6 @@
 }
 
 .contact-block__email {
+    width: 70%;    
     border-bottom:1px solid #62d1ba;
-    width: 70%;
 }

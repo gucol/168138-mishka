@@ -1,20 +1,18 @@
 .form-fieldset {
-    border: none;
-    border-top: 1px solid #62d1ba;
     padding: 0px;
     padding-top: 40px;
     padding-bottom: 30px;
+    border: none;
+    border-top: 1px solid #62d1ba;
 }
 
 .form-fieldset__legend {
-    font-family: $main-font;
+    width: 62px;
     font-weight: bold;
-    font-size: 17px;
     line-height: 16px;
     color: $second-color;
-    background: $page-bg;
-    width: 62px;
     text-transform: uppercase;
+    background: $page-bg;
 }
 
 .form-fieldset__radio {
@@ -23,14 +21,12 @@
 
 .form-fieldset__label {
     display: block;
-    font-family: $main-font;
+    padding-left: 62px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
     font-weight: bold;
-    font-size: 17px;
     line-height: 18px;
     color: $first-color;
-    padding-left: 62px;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
 }
 
 .form-fieldset__label[for="name-field"],
@@ -48,33 +44,28 @@
 .form-fieldset__tel,
 .form-fieldset__email {
     width: 100%;
-    border: none;
-    border-bottom: 2px solid $first-color;
+    padding-bottom: 14px;
     margin-bottom: 24px;
-    font-family: $main-font;
-    font-size: 17px;
     line-height: 18px;
     color: $text-color;
-    padding-bottom: 14px;
+    border: none;
+    border-bottom: 2px solid $first-color;
 }
 
 .form-fieldset__textarea {
-    border: 2px solid $first-color;
+    box-sizing: border-box;
     width: 100%;
     min-height: 140px;
-    box-sizing: border-box;
     padding: 16px 80px 16px 16px;
-    font-family: $main-font;
-    font-size: 17px;
     line-height: 18px;
     color: rgba($text-color, 0.3);
+    border: 2px solid $first-color;
 }
 
 .page-form__text {
-    font-family: $main-font;
+    margin-top: -12px;
+    margin-bottom: 30px;
     font-size: 14px;
     line-height: 16px;
     color: $text-color;
-    margin-top: -12px;
-    margin-bottom: 30px;
 }

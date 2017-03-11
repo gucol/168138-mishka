@@ -1,18 +1,19 @@
 .page-main {
     padding-bottom: 60px;
+    font-family: $main-font;
+    font-size: 17px;
 }
 
 .page-main__title {
     padding-top: 75px;
     padding-bottom: 75px;
-    background-color: #f1f1f1;
-    text-align: center;
-    font-family: $main-font;
+    margin: 0px;    
     font-weight: bold;
-    color: $first-color;
     font-size: 27px;
     line-height: 30px;
-    margin: 0px;
+    color: $first-color;    
+    text-align: center;    
+    background-color: #f1f1f1;
 }
 
 .page-main__desc {

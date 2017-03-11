@@ -1,16 +1,5 @@
 .btn {
-    background: $page-bg;
+    @include btn;
     width: 100%;
-    color: $text-color;
-    font-family: $main-font;
-    font-size: 17px;
     line-height: 20px;
-    wont-weight: bold;
-    display: block;
-    text-align: center;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    border: 2px solid $text-color;
-    text-decoration: none;
-    text-transform: uppercase;
 }

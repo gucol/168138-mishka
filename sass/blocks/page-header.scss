@@ -1,35 +1,36 @@
 .page-header {
-    background-color: $page-bg;
     padding: 20px 0px 0px;
+    background-color: $page-bg;
+    font-family: $main-font;
+    font-size: 17px;
 }
 
 .page-header__title {
-    background: #f1f1f1 url("../img/hero-mobile@1x.jpg") top center;
     padding: 70px 10% 120px;
-    font-family: $main-font;
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-weight: bold;
     font-size: 27px;
     line-height: 30px;
     color: $first-color;
     text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    background: #f1f1f1 url("../img/hero-mobile@1x.jpg") top center;
 }
 
 .page-header__link {
     display: block;
-    font-family: $main-font;
+    padding: 30px 50% 30px 10px;
     font-weight: bold;
     font-size: 29px;
     line-height: 24px;
     color: $page-bg;
-    padding: 30px 50% 30px 10px;
     text-align: left;
     text-decoration: none;
 
       &--first {
       background-color: $second-color;
       }
+
       &--second {
       background-color: #56c3b2;
       }

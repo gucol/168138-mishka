@@ -3,11 +3,10 @@
 }
 
 .develop__text {
-    font-family: $main-font;
-    color: $first-color;
     font-weight: bold;
     font-size: 19px;
-    line-height: 18px;
+    line-height: 18px;    
+    color: $first-color;
 }
 
 .develop__link {
