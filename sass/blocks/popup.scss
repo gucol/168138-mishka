@@ -1,7 +1,7 @@
 .popup {
     position: fixed;
     top: 50%;
-    margin-top: -100%;
+    margin-top: -50%;
     padding: 35px 9% 45px;
     background: $page-bg;
     border-top: 1px solid #c7c7c7;
@@ -52,7 +52,7 @@
     border: 2px solid #ececec;
 
     &:last-child {
-    margin-right: 0;
+      margin-right: 0;
     }
 }
 
