@@ -1,0 +1,14 @@
+@mixin btn() {
+    display: block;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-family: $main-font;
+    font-weight: bold;
+    font-size: 17px;
+    color: $text-color;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: $page-bg;
+    border: 2px solid $text-color;
+}

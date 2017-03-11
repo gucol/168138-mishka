@@ -1,0 +1,67 @@
+.form-fieldset {
+    padding: 0px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border: none;
+    border-top: 1px solid #62d1ba;
+
+    &:last-child {
+    padding-bottom: 18px;
+    }
+}
+
+.form-fieldset__legend {
+    width: 62px;
+    font-weight: bold;
+    line-height: 16px;
+    color: $second-color;
+    text-transform: uppercase;
+    background: $page-bg;
+}
+
+.form-fieldset__radio {
+    display: none;
+}
+
+.form-fieldset__label {
+    display: block;
+    padding-left: 62px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    line-height: 18px;
+    color: $first-color;
+}
+
+.form-fieldset__label[for="name-field"],
+.form-fieldset__label[for="surname-field"],
+.form-fieldset__label[for="patronymic-field"] {
+    padding-left: 0px;
+    margin-bottom: 16px;
+}
+
+.form-fieldset__checkbox {
+    display: none;
+}
+
+.form-fieldset__text,
+.form-fieldset__tel,
+.form-fieldset__email {
+    width: 100%;
+    padding-bottom: 14px;
+    margin-bottom: 24px;
+    line-height: 18px;
+    color: $text-color;
+    border: none;
+    border-bottom: 2px solid $first-color;
+}
+
+.form-fieldset__textarea {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 140px;
+    padding: 16px 80px 16px 16px;
+    line-height: 18px;
+    color: rgba($text-color, 0.3);
+    border: 2px solid $first-color;
+}

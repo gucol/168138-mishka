@@ -3,12 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Мишка</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initail-scale=1">
   </head>
-  <body>
+  <body class="page">
     <header class="page-header">
       <h1 class="visually-hidden">Магазин милых штук "Мишка": главная страница</h1>
       <div class="main-logo">
-        <img src="http://placehold.it/150x100" alt="Логотип магазина Mishka">
+        <img src="http://placehold.it/86x35" alt="Логотип магазина Mishka">
       </div>
       <nav class="main-nav main-nav--closed">
         <button class="main-nav__toggle" type="button">Открыть меню</button>
@@ -24,9 +26,9 @@
           <li class="main-nav__item"><a href="#">Корзина: пока пуста</a></li>
         </ul>
       </nav>
-      <h2 class="page-header__title">Милые штуки ручной работы для дома</h2>
-      <a class="page-header__link" href="#">Предметы интерьера</a>
-      <a class="page-header__link" href="#">Детские игрушки</a>
+      <h2 class="page-header__title">Милые штуки ручной <br> работы для дома</h2>
+      <a class="page-header__link page-header__link--first" href="#">Предметы интерьера</a>
+      <a class="page-header__link page-header__link--second" href="#">Детские игрушки</a>
     </header>
 
     <main class="page-main">
@@ -48,7 +50,7 @@
             <td>15 см</td>
           </tr>
         </table>
-        <img class="weekly-leader__img" src="http://placehold.it/150x100" alt="Фотография вязаных корзинок">
+        <img class="weekly-leader__img" src="img/triple-set-mobile@1x.jpg" alt="Фотография вязаных корзинок">
         <span class="weekly-leader__price">Цена: 990 руб.</span>
         <a class="btn" href="#">Заказать</a>
       </section>
@@ -83,7 +85,7 @@
           <table class="contact-block__table">
             <tr>
               <td>e-mail:</td>
-              <td>info@mimimishkashop.ru</td>
+              <td class="contact-block__email">info@mimimishkashop.ru</td>
             </tr>
             <tr>
               <td>адрес:</td>
@@ -106,7 +108,7 @@
       </section>
     </footer>
 
-    <div class="popup">
+    <div class="popup popup--closed">
       <h2 class="popup__title">Добавить в корзину</h2>
       <p class="popup__text">Выберите размер:</p>
       <form class="popup__form" action="https://echo.htmlacademy.ru/" method="post">

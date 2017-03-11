@@ -1,0 +1,33 @@
+.main-nav {
+    &--closed {
+    display: none;
+    }
+}
+
+.main-nav__toggle {
+    display: none;
+}
+
+.main-nav__list {
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.main-nav__item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    list-style: none;
+    border-top: 1px solid #ececec;
+
+    &:last-child {
+      border-bottom: 1px solid #ececec;
+    }
+}
+
+.main-nav__item a {
+    font-weight: bold;
+    line-height: 24px;
+    color: $first-color;
+    text-decoration: none;
+}

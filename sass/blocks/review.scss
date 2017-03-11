@@ -1,0 +1,25 @@
+.review {
+    font-family: $main-font;
+    padding-bottom: 30px;
+}
+
+.review__text {
+    padding-bottom: 40px;
+    font-size: 15px;
+    line-height: 30px;
+    color: $text-color;
+}
+
+.review__author {
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: $first-color;
+}
+
+.review__contact {
+    font-size: 17px;
+    line-height: 30px;
+    color: $text-color;
+}

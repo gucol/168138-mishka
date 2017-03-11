@@ -1,0 +1,27 @@
+.contact-block {
+    padding-bottom: 30px;
+    margin-bottom: 495px;
+    background-color: $page-bg;
+}
+
+.contact-block__title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: $first-color;
+}
+
+.contact-block__table {
+    font-size: 15px;
+    line-height: 30px;
+    color: $text-color;
+}
+
+.contact-block__table td {
+    margin-bottom: 35px;
+}
+
+.contact-block__email {
+    width: 70%;
+    border-bottom:1px solid #62d1ba;
+}
