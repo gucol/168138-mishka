@@ -4,6 +4,10 @@
     padding-bottom: 30px;
     border: none;
     border-top: 1px solid #62d1ba;
+
+    &:last-child {
+    padding-bottom: 18px;
+    }
 }
 
 .form-fieldset__legend {
@@ -60,12 +64,4 @@
     line-height: 18px;
     color: rgba($text-color, 0.3);
     border: 2px solid $first-color;
-}
-
-.page-form__text {
-    margin-top: -12px;
-    margin-bottom: 30px;
-    font-size: 14px;
-    line-height: 16px;
-    color: $text-color;
 }
